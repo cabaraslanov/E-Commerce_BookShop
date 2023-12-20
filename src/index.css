@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.basketMain{
+    align-items: center;
+}
+.empty{
+    align-items: baseline;
+}
+
+.ant-modal-footer{
+  display: none;
+}
+.spinner{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Toastify__toast {
+  box-shadow: none !important; /* Gölge efektini kaldırır */
+}
+
+
+@media only screen and (max-width:1024px){
+    .detailsTexts{
+        align-items: center;
+    }
+}
+@media only screen and (max-width:760px){
+    .thumbs {
+        display: none;
+    }
+}
+@media only screen and (max-width:420px){
+  .Toastify__toast-container{
+  width: 300px !important;
+  }
+}
